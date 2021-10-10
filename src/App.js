@@ -9,6 +9,7 @@ import Alert from './Components/Layout/Alert';
 import About from './Components/Pages/About';
 import GithubState from './context/github/GithubState';
 import AlertState from './context/alert/AlertState';
+import Particles from 'react-particles-js';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <div className="App">
             <Navabr />
             <div className="container">
+            
               <Alert />
               <Switch>
                 <Route exact path="/" component={Home} />
